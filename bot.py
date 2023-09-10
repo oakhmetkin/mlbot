@@ -96,20 +96,4 @@ if __name__ == '__main__':
         face_rec_logger,
         )
 
-    # # learning
-    # people = {
-    #     'Oleg': [
-    #         'oleg.png',
-    #         'oleg2.jpg',
-    #         'oleg3.jpg',
-    #     ],
-
-    #     'Sasha': [
-    #         'sasha.png',
-    #         'sasha2.jpg',
-    #         'sasha3.jpg',
-    #     ]
-    # }
-    # recognizer.remember_many(people, path='data/faces/train_faces/')
-
     handle()
